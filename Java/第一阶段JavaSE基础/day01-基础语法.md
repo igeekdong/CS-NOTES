@@ -415,7 +415,7 @@ byte b 3 = (byte) (b 1 + b 2 );
 
 ## 资料来源参考
 
-- www.itheima.com
+- 资料来自互联网，侵权/推广请联系:feedback@geekdong.cn
 
 ---
 
