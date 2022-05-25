@@ -40,7 +40,7 @@ Java中的代理按照代理类生成时机不同又分为静态代理和动态�
 
 如果要买火车票的话，需要去火车站买票，坐车到火车站，排队等一系列的操作，显然比较麻烦。而火车站在多个地方都有代售点，我们去代售点买票就方便很多了。这个例子其实就是典型的代理模式，火车站是目标对象，代售点是代理对象。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257314.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257314.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -440,7 +440,7 @@ public class Client {
 
 如果去欧洲国家去旅游的话，他们的插座如下图最左边，是欧洲标准。而我们使用的插头如下图最右边的。因此我们的笔记本电脑，手机在当地不能直接充电。所以就需要一个插座转换器，转换器第1面插入当地的插座，第2面供我们充电，这样使得我们的插头在当地能使用。生活中这样的例子很多，手机充电器（将220v转换为5v的电压），读卡器等，其实就是使用到了适配器模式。
 
-![](https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257316.png)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257316.png)
 
 **定义：**
 
@@ -466,7 +466,7 @@ public class Client {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257317.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257317.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -564,7 +564,7 @@ public class Client {
 
 我们使用对象适配器模式将读卡器的案例进行改写。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257318.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257318.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -636,7 +636,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 如上代码中的sd（StreamDecoder类对象），在Sun的JDK实现中，实际的方法实现是对sun.nio.cs.StreamDecoder类的同名方法的调用封装。类结构图如下：
 
-![](https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257319.png)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257319.png)
 
 从上图可以看出：
 
@@ -688,7 +688,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257320.png" style="zoom:75%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257320.png" style="zoom:75%;" />
 
 代码如下：
 
@@ -877,7 +877,7 @@ public class Demo {
 
 使用起来感觉确实像是装饰者模式，接下来看它们的结构：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257321.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257321.png" style="zoom:80%;" />
 
 > <font color="red">小结：</font>
 >
@@ -909,7 +909,7 @@ public class Demo {
 
 现在有一个需求，需要创建不同的图形，并且每个图形都有可能会有不同的颜色。我们可以利用继承的方式来设计类的关系：
 
-![](https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257322.png)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257322.png)
 
 我们可以发现有很多的类，假如我们再增加一个形状或再增加一种颜色，就需要创建更多的类。
 
@@ -940,7 +940,7 @@ public class Demo {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257323.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257323.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1038,7 +1038,7 @@ public class Client {
 
 ​	外观（Facade）模式是“迪米特法则”的典型应用
 
-![](https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257324.jpg)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257324.jpg)
 
 
 
@@ -1057,7 +1057,7 @@ public class Client {
 
 小明的爷爷已经60岁了，一个人在家生活：每次都需要打开灯、打开电视、打开空调；睡觉时关闭灯、关闭电视、关闭空调；操作起来都比较麻烦。所以小明给爷爷买了智能音箱，可以通过语音直接控制这些智能家电的开启和关闭。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257325.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257325.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1170,11 +1170,11 @@ public class Client {
 
 使用tomcat作为web容器时，接收浏览器发送过来的请求，tomcat会将请求信息封装成ServletRequest对象，如下图①处对象。但是大家想想ServletRequest是一个接口，它还有一个子接口HttpServletRequest，而我们知道该request对象肯定是一个HttpServletRequest对象的子实现类对象，到底是哪个类的对象呢？可以通过输出request对象，我们就会发现是一个名为RequestFacade的类的对象。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257326.png" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257326.png" style="zoom:60%;" />
 
 RequestFacade类就使用了外观模式。先看结构图：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257327.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101257327.png" style="zoom:70%;" />
 
 **为什么在此处使用外观模式呢？**
 
@@ -1184,7 +1184,7 @@ RequestFacade类就使用了外观模式。先看结构图：
 
 ### 5.6.1 概述
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301337.png" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301337.png" style="zoom:60%;" />
 
 ​	对于这个图片肯定会非常熟悉，上图我们可以看做是一个文件系统，对于这样的结构我们称之为树形结构。在树形结构中可以通过调用某个方法来遍历整个树，当我们找到某个叶子节点后，就可以对叶子节点进行相关的操作。可以将这颗树理解成一个大的容器，容器里面包含很多的成员对象，这些成员对象即可是容器对象也可以是叶子对象。但是由于容器对象和叶子对象在功能上面的区别，使得我们在使用的过程中必须要区分容器对象和叶子对象，但是这样就会给客户带来不必要的麻烦，作为客户而已，它始终希望能够一致的对待容器对象和叶子对象。
 
@@ -1210,11 +1210,11 @@ RequestFacade类就使用了外观模式。先看结构图：
 
 如下图，我们在访问别的一些管理系统时，经常可以看到类似的菜单。一个菜单可以包含菜单项（菜单项是指不再包含其他内容的菜单条目），也可以包含带有其他菜单项的菜单，因此使用组合模式描述菜单就很恰当，我们的需求是针对一个菜单，打印出其包含的所有菜单以及菜单项的名称。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301338.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301338.png" style="zoom:80%;" />
 
 要实现该案例，我们先画出类图：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301339.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301339.png" style="zoom:80%;" />
 
 **代码实现：**
 
@@ -1333,7 +1333,7 @@ MenuItem是菜单项，不能再有子菜单，所以添加菜单，移除菜单
 
   在安全组合模式中，在抽象构件角色中没有声明任何用于管理成员对象的方法，而是在树枝节点 `Menu` 类中声明并实现这些方法。安全组合模式的缺点是不够透明，因为叶子构件和容器构件具有不同的方法，且容器构件中那些用于管理成员对象的方法没有在抽象构件类中定义，因此客户端不能完全针对抽象编程，必须有区别地对待叶子构件和容器构件。
 
-  <img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301340.png" style="zoom:80%;" />
+  <img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301340.png" style="zoom:80%;" />
 
 
 
@@ -1384,13 +1384,13 @@ MenuItem是菜单项，不能再有子菜单，所以添加菜单，移除菜单
 
 下面的图片是众所周知的俄罗斯方块中的一个个方块，如果在俄罗斯方块这个游戏中，每个不同的方块都是一个实例对象，这些对象就要占用很多的内存空间，下面利用享元模式进行实现。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301341.jpeg" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301341.jpeg" style="zoom:60%;" />
 
 
 
 **先来看类图：**
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301342.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301342.png" style="zoom:80%;" />
 
 **代码如下：**
 
@@ -1508,7 +1508,7 @@ public class Demo {
 
 运行上面代码，结果如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301343.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301343.png" style="zoom:80%;" />
 
 为什么第一个输出语句输出的是true，第二个输出语句输出的是false？通过反编译软件进行反编译，代码如下：
 

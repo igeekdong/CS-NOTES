@@ -595,4 +595,4 @@ System.out.println("胖揍一顿");
 
 欢迎关注我的公众号“[程序员董同学](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNDE4NDgxMA==#wechat_redirect)”，原创技术文章第一时间推送。
 
-![我的公众号](https://cdn.jsdelivr.net/gh/igeekdong/image_store/officialAccountPic/qrcode_for_gh_b6fb5bbeaaca_344.jpg)
+![我的公众号](https://fastly.jsdelivr.net/gh/igeekdong/image_store/officialAccountPic/qrcode_for_gh_b6fb5bbeaaca_344.jpg)

@@ -64,7 +64,7 @@
 
 炒菜的步骤是固定的，分为倒油、热油、倒蔬菜、倒调料品、翻炒等步骤。现通过模板方法模式来用代码模拟。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301344.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301344.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -232,11 +232,11 @@ public abstract class InputStream implements Closeable {
 
 先看下面的图片，我们去旅游选择出行模式有很多种，可以骑自行车、可以坐汽车、可以坐火车、可以坐飞机。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301345.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301345.png" style="zoom:80%;" />
 
 作为一个程序猿，开发需要选择一款开发工具，当然可以进行代码开发的工具有很多，可以选择Idea进行开发，也可以使用eclipse进行开发，也可以使用其他的一些开发工具。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301346.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301346.png" style="zoom:70%;" />
 
 **定义：**
 
@@ -260,7 +260,7 @@ public abstract class InputStream implements Closeable {
 
 一家百货公司在定年度的促销活动。针对不同的节日（春节、中秋节、圣诞节）推出不同的促销活动，由促销员将促销活动展示给客户。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301347.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301347.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -440,7 +440,7 @@ class TimSort<T> {
 
 日常生活中，我们出去吃饭都会遇到下面的场景。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301348.png" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301348.png" style="zoom:60%;" />
 
 **定义：**
 
@@ -471,7 +471,7 @@ class TimSort<T> {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301349.png" style="zoom:75%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301349.png" style="zoom:75%;" />
 
 代码如下：
 
@@ -721,7 +721,7 @@ public class Demo {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301350.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101301350.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1002,7 +1002,7 @@ public class Client {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303829.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303829.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1159,7 +1159,7 @@ public class Client {
 
 对上述电梯的案例使用状态模式进行改进。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303830.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303830.png" style="zoom:70%;" />
 
 代码如下：
 
@@ -1420,7 +1420,7 @@ public class Client {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303831.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303831.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -1637,7 +1637,7 @@ public class Client {
 
 如果引入中介者模式，那么同事类之间的关系将变为星型结构，从下右图中可以看到，任何一个类的变动，只会影响的类本身，以及中介者，这样就减小了系统的耦合。一个好的设计，必定不会把所有的对象关系处理逻辑封装在本类中，而是使用一个专门的类来管理那些不属于自己的行为。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303832.png" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303832.png" style="zoom:60%;" />
 
 **定义：**
 
@@ -1665,7 +1665,7 @@ public class Client {
 
 类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303833.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303833.png" style="zoom:70%;" />
 
 代码如下：
 
@@ -1832,7 +1832,7 @@ public class Client {
 
 【例】定义一个可以存储学生对象的容器对象，将遍历该容器的功能交由迭代器实现，涉及到的类如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303834.png" style="zoom:90%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303834.png" style="zoom:90%;" />
 
 
 
@@ -2035,7 +2035,7 @@ public class ArrayList<E> extends AbstractList<E>
 
 类图如下：
 
-![](https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303835.png)
+![](https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303835.png)
 
 代码如下：
 
@@ -2280,7 +2280,7 @@ public class Client {
 
 运行结果：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303836.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303836.png" style="zoom:70%;" />
 
 这个结果可能出乎一些人的意料了，为什么呢？
 
@@ -2343,7 +2343,7 @@ public class Client {
 
 运行结果如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303837.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303837.png" style="zoom:67%;" />
 
 **双分派实现动态绑定的本质，就是在重载方法委派的前面加上了继承体系中覆盖的环节，由于覆盖是动态的，所以重载就是动态的了。**
 
@@ -2393,7 +2393,7 @@ public class Client {
 
 备忘录角色对任何对象都提供一个接口，即宽接口，备忘录角色的内部所存储的状态就对所有对象公开。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303838.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303838.png" style="zoom:80%;" />
 
 代码如下：
 
@@ -2547,7 +2547,7 @@ public class Client {
 
 将 `RoleStateMemento` 设为 `GameRole` 的内部类，从而将 `RoleStateMemento` 对象封装在 `GameRole` 里面；在外面提供一个标识接口 `Memento` 给 `RoleStateCaretaker` 及其他对象使用。这样 `GameRole` 类看到的是 `RoleStateMemento` 所有的接口，而`RoleStateCaretaker`  及其他对象看到的仅仅是标识接口 `Memento` 所暴露出来的接口，从而维护了封装型。类图如下：
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303839.png" style="zoom:70%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101303839.png" style="zoom:70%;" />
 
 代码如下：
 
@@ -2735,7 +2735,7 @@ public class Client {
 
 ### 6.11.1 概述
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305747.png" style="zoom:60%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305747.png" style="zoom:60%;" />
 
 如上图，设计一个软件用来进行加减计算。我们第一想法就是使用工具类，提供对应的加法和减法的工具方法。
 
@@ -2795,7 +2795,7 @@ value ::= integer
 
 用树形来表示符合文法规则的句子。
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305748.png" style="zoom:50%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305748.png" style="zoom:50%;" />
 
 ### 6.11.2 结构
 
@@ -2814,7 +2814,7 @@ value ::= integer
 
 【例】设计实现加减法的软件
 
-<img src="https://cdn.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305749.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/igeekdong/image_store/note/design-pattern/202205101305749.png" style="zoom:80%;" />
 
 代码如下：
 
